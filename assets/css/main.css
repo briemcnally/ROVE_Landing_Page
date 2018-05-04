@@ -551,6 +551,7 @@
 
 		h2 {
 			font-size: 1.5em;
+
 		}
 
 	}
@@ -1732,10 +1733,9 @@
 			}
 
 				#header h1 {
-					text-align: center;
-					position: relative;
-					left: 0;
+					left: 10;
 					top: 0;
+					left: 50px;
 					height: 2.5em;
 					line-height: 2.5em;
 				}
@@ -1775,7 +1775,6 @@
 	}
 
 		.main > .content {
-			width: 45em;
 			max-width: calc(100% - 4em);
 			margin: 0 auto;
 		}
@@ -1786,6 +1785,7 @@
 
 		.main.fullscreen {
 			min-height: 100%;
+
 		}
 
 		.main.style1 {
@@ -1833,6 +1833,7 @@
 			-ms-justify-content: center;
 			justify-content: center;
 			padding: 3em 0 3em 0;
+			padding-bottom: 100px;
 			overflow: hidden;
 		}
 
@@ -1847,6 +1848,7 @@
 				transform: translateZ(0);
 				position: relative;
 				width: 35%;
+				/* height: 600px; */
 				margin: 0;
 			}
 
@@ -2102,12 +2104,10 @@
 
 	#intro {
 		background: url("images/golden-gate-bridge-690346_1920.jpg");
-		background-position-y: -300px;
-		background-repeat: no-repeat;
-		background-size: 100%, cover;
-		/* background-attachment: fixed, fixed; */
-		background-position: top left, bottom center;
-		background-repeat: repeat, no-repeat;
+    background-repeat: no-repeat;
+    background-attachment: fixed, fixed;
+    background-position: left top, bottom center;
+    background-position: right top, bottom center;
 	}
 	.teaxm-icons{
 		display: flex;
@@ -2212,5 +2212,7 @@
 		}
 
 		.gif{
-			padding-left: 300px;
+			display:flex;
+			justify-content: center;
+			align-self:center;
 		}
