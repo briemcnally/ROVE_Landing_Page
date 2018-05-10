@@ -52,7 +52,6 @@
 	}
 
 /* Box Model */
-
 	*, *:before, *:after {
 		-moz-box-sizing: border-box;
 		-webkit-box-sizing: border-box;
@@ -2103,6 +2102,7 @@
 	#intro {
 		background: url("images/golden-gate-bridge-690346_1920.jpg");
     background-repeat: no-repeat;
+		background-size: cover;
     background-attachment: fixed, fixed;
     background-position: left top, bottom center;
     background-position: right top, bottom center;
