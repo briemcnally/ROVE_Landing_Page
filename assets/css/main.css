@@ -2104,7 +2104,6 @@
     background-repeat: no-repeat;
 		background-size: cover;
     background-attachment: fixed, fixed;
-    background-position: left top, bottom center;
     background-position: right top, bottom center;
 	}
 	.team-icons{
